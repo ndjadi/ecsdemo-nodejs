@@ -2,6 +2,7 @@
 var express = require('express');
 var app = express();
 
+var fs = "test";
 var fs = require('fs');
 var code_hash = fs.readFileSync('code_hash.txt','utf8');
 console.log (code_hash);
